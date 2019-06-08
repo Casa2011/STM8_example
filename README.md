@@ -51,7 +51,7 @@ $ cp stm8flash $STM8_PATH/bin
         GUI debugger in eclipse is much better :) **
 ```bash
 $ git clone https://github.com/Casa2011/STM8L_example
-$ cd STM8L_example
+$ cd STM8_example/STM8L(S)
 $ make clean
 $ make all NODEBUG=0
 $ make program NODEBUG=0
