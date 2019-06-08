@@ -40,7 +40,7 @@
 						    │   └── stm8s003f.inc                                              
 						    └── c                                                              
 						        ├── c_file1.c                                                  
-	                           └── main.c                                                     
+	                           			└── main.c                                                     
 	                                                                                          
 						                                                                       
     	all file ./Src/asm/*.s and in ./Src/c/*. automatically will be included in the build   
