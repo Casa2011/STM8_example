@@ -33,6 +33,7 @@ $ make install
 ```bash
 $ cd STM8_Tools-src
 $ git clone https://github.com/ntfreak/openocd.git
+$ cd openocd
 $ ./bootstrap
 $ ./configure --prefix=$STM8_PATH --disable-werror --disable-wextra
 $ make
@@ -40,9 +41,9 @@ $ make install
 ```
 ## **stm8-flash**
 ```bash
-$ cd
+$ cd STM8_Tools-src
 $ git clone https://github.com/vdudouyt/stm8flash.git
-$ uname -s
+$ cd stm8flash
 $ make
 $ cp stm8flash $STM8_PATH/bin
 ```
@@ -50,7 +51,7 @@ $ cp stm8flash $STM8_PATH/bin
         **This method is intended only for testing the assembly and installation of software.
         GUI debugger in eclipse is much better :) **
 ```bash
-$ git clone https://github.com/Casa2011/STM8L_example
+$ git clone https://github.com/Casa2011/STM8_example
 $ cd STM8_example/STM8L(S)
 $ make clean
 $ make all NODEBUG=0
